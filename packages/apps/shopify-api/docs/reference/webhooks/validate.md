@@ -19,8 +19,7 @@ app.post('/webhooks', express.text({type: '*/*'}), async (req, res) => {
     // This is not a valid request!
     res.send(400); // Bad Request
   }
-
-  // Run my webhook-processing code here
+     4c043f8530c77715e930a555557b229c
 });
 ```
 
